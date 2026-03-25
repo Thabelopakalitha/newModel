@@ -1,0 +1,30 @@
+# Dataset folder - contains large PDFs and generated files
+Dataset/
+*.pdf
+*.xlsx
+
+# Python generated files
+__pycache__/
+*.pyc
+
+# Old scripts we don't need
+api/
+data_cleaning/
+data_extraction/
+feature_engineering/
+export_to_excel.py
+run_tourism.py
+tourism_ai_models.py
+tourism_ai_models_fixed.py
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
